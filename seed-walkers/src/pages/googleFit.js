@@ -2,7 +2,7 @@ import { OAuth2Client } from 'google-auth-library';
 import { google } from 'googleapis';
 
 const SCOPES = ['https://www.googleapis.com/auth/fitness.activity.read'];
-const CLIENT_ID = 'YOUR_CLIENT_ID'; // insira seu ID de cliente do Google
+const CLIENT_ID = 'data-client_id="905694888986-7rchd6o1mh1un95rn3kkkniad007271l.apps.googleusercontent.com'; // insira seu ID de cliente do Google
 
 function authorizeUser() {
   const authClient = new OAuth2Client(CLIENT_ID);
