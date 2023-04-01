@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { authorizeUser, getDataFromGoogleFit, renderData } from './googleFit';
 
-function App() {
+function index() {
   const [data, setData] = useState(null);
 
   function handleClick() {
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default index;
